@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Doctors from './Components/Doctors';
 import Home from './Components/Home';
 
 export default function App() {
@@ -9,7 +8,6 @@ export default function App() {
       <Text>Hello REACT NATIVE!</Text>
       <StatusBar style="auto" />
       <Home></Home>
-      <Doctors></Doctors>
     </View>
   );
 }
