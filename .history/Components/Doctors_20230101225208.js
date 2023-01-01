@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {View, StyleSheet, Text, UIScrollView} from 'react-native';
+import {View, StyleSheet, Text} from 'react-native';
 import Doctor from './Doctor';
 
 const Doctors = () => {
@@ -12,8 +12,7 @@ const Doctors = () => {
 
     return (
         <View>
-            <Text>Available Doctors: {doctors.length}</Text>
-            <br />
+            <Text>This is Doctors: {doctors.length}</Text>
             {
                 doctors.map(doctor => 
                     <Doctor 

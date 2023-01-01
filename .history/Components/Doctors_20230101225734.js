@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {View, StyleSheet, Text, UIScrollView} from 'react-native';
+import {View, StyleSheet, Text} from 'react-native';
 import Doctor from './Doctor';
 
 const Doctors = () => {

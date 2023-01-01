@@ -36,7 +36,6 @@ const styles = StyleSheet.create({
   links: {
     color: 'gray',
     fontWeight: 700,
-    fontSize: 20,
     margin: 4,
     display: 'inline'
   }

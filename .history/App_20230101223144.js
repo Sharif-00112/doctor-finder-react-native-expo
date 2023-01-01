@@ -13,8 +13,8 @@ export default function App() {
       
       <NativeRouter>
         {/* <Link to='/'><Text>Home</Text></Link> */}
-        <Link to='/home'><Text  style={styles.links}>Home</Text></Link>
-        <Link  to='/doctors'><Text style={styles.links}>Doctors</Text></Link>
+        <Link to='/home'><Text>Home</Text></Link>
+        <Link to='/doctors'><Text>Doctors</Text></Link>
         <br /><br />
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
@@ -33,11 +33,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  links: {
-    color: 'gray',
-    fontWeight: 700,
-    fontSize: 20,
-    margin: 4,
-    display: 'inline'
-  }
 });

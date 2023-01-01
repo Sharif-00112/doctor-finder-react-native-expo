@@ -1,17 +1,11 @@
 import React from 'react';
-import {View, StyleSheet, Text, Button} from 'react-native';
+import {View, StyleSheet, Text} from 'react-native';
 
 const Home = () => {
     return (
         <View>
             <Text>Click 'Doctors' to view all the available doctors</Text>
             {/* <Text>This is Home</Text> */}
-            <br />
-            <Button
-                onPress={ e => alert('Please contact sh.hossain.24@gmail.com')}
-                title='Contact'
-                color='coral'
-            />
         </View>
     );
 }

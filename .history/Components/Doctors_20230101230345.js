@@ -14,14 +14,17 @@ const Doctors = () => {
         <View>
             <Text>Available Doctors: {doctors.length}</Text>
             <br />
-            {
-                doctors.map(doctor => 
-                    <Doctor 
-                        key={doctor._id}
-                        doctor={doctor}
-                    ></Doctor>
-                )
-            }
+            <UIScrollView>
+                {
+                    doctors.map(doctor => 
+                        <Doctor 
+                            key={doctor._id}
+                            doctor={doctor}
+                        ></Doctor>
+                    )
+                }
+            </UIScrollView>
+            
         </View>
     );
 }
